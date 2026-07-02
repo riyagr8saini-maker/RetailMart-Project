@@ -1,0 +1,13 @@
+# Ignore the entire data pipeline folders
+data/
+*/_delta_log/
+*.csv
+*.parquet
+*.crc
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
